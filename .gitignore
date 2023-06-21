@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*/wandb
 # C extensions
 *.so
 
@@ -151,7 +152,8 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
+*checkpoints/
+RLHF/wandb
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
